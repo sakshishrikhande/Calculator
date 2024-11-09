@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="calculater.css">
 </head>
 
 <body>
@@ -14,7 +15,7 @@
 
         <form name="forms">
             <div>
-                <input type="text" name="display">
+                <input type="text" name="display" id="display">
             </div>
 
             <div>
@@ -43,7 +44,7 @@
             </div>
 
             <div>
-                <input type="button" value="Clear All" onclick="forms.display.value = ''">
+                <input type="button" value="Clear All" id="slc" onclick="forms.display.value = ''">
             </div>
         </form>
 
